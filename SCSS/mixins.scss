@@ -21,3 +21,11 @@
     margin-bottom: 30px;
   }
 }
+
+@mixin clearFix {
+  &:after {  // pseudo classes
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
