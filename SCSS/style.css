@@ -1,3 +1,33 @@
+body {
+  font-family: arial;
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 #main-nav {
   background-color: #032f3e;
 }
@@ -80,4 +110,6 @@ section h1 {
   font-size: 20px;
   max-width: 500px;
   margin: 120px 0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
