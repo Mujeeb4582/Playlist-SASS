@@ -19,7 +19,7 @@
     display: block;
     text-align: center;
     &:hover {  // pseudo classes
-      background-color: #333;
+      background-color: lighten($deepBlue, 6);
     }
   }
 }
@@ -61,7 +61,7 @@ section h1 {
     color: $deepBlue;
     font-weight: bold;
     &:hover{
-      color: red;
+      color: complement($deepBlue);  //https://sass-lang.com/documentation/modules
     }
   }
   ul {
