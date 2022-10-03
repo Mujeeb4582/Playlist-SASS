@@ -139,4 +139,17 @@ section h1 {
   content: "";
   display: block;
   clear: both;
+}
+
+#projects li {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 23.5%;
+}
+#projects li:nth-child(4n) {
+  margin-right: 0;
+}
+#projects li img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
