@@ -1,18 +1,32 @@
 body {
-  font-family: arial;
+  font-family: arial, sans-serif;
   background: #f8f9fb;
 }
 
-html, body, ul, ol, li, form, fieldset, legend {
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
 }
 
-fieldset, img {
+fieldset,
+img {
   border: 0;
 }
 
@@ -28,13 +42,43 @@ li {
   box-sizing: border-box;
 }
 
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lessons-banner img {
+  width: 100%;
+}
+.lessons-banner span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.lessons-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.lessons-banner li {
+  text-transform: uppercase;
+  font-size: 20px;
+  max-width: 500px;
+  margin: 120px 0;
+}
+
 #main-nav {
   background-color: #032f3e;
 }
 #main-nav ul {
   width: 100%;
 }
-#main-nav ul:after {
+#main-nav ul::after {
   content: "";
   display: block;
   clear: both;
@@ -84,36 +128,6 @@ section h1 {
   margin-bottom: 30px;
 }
 
-.lessons-banner {
-  width: 100%;
-  position: relative;
-  color: white;
-}
-.lessons-banner .banner-content {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-}
-.lessons-banner img {
-  width: 100%;
-}
-.lessons-banner span {
-  font-size: 46px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.lessons-banner span.title {
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-.lessons-banner li {
-  text-transform: uppercase;
-  font-size: 20px;
-  max-width: 500px;
-  margin: 120px 0;
-}
-
 #services {
   margin-bottom: 60px;
 }
@@ -135,7 +149,7 @@ section h1 {
 #services a:hover {
   color: #3e1203;
 }
-#services ul:after {
+#services ul::after {
   content: "";
   display: block;
   clear: both;
