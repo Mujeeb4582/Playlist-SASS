@@ -13,6 +13,16 @@
   }
 }
 
+a {
+  text-decoration: none;
+  color: $deepBlue;
+  font-weight: bold;
+
+  &:hover {
+    color: complement($deepBlue);  //https://sass-lang.com/documentation/modules
+  }
+}
+
 #main-nav {
   background-color: $deepBlue;
 
@@ -64,16 +74,6 @@ section h1 {
   img {
     width: 60%;
     margin: 20px 20%;
-  }
-
-  a {
-    text-decoration: none;
-    color: $deepBlue;
-    font-weight: bold;
-
-    &:hover {
-      color: complement($deepBlue);  //https://sass-lang.com/documentation/modules
-    }
   }
 
   ul {
